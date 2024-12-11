@@ -6,7 +6,7 @@ from sklearn.metrics import mean_squared_error
 from haversine import haversine, Unit
 
 # Load dataset
-df = pd.read_csv("your_dataset.csv")  # Replace with your dataset path
+df = pd.read_csv("data/processed_taxi.csv")  # Replace with your dataset path
 
 # Data Cleaning
 df = df.dropna()
